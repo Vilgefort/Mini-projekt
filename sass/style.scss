@@ -1,0 +1,36 @@
+//Variables
+//Fonts
+$fontmain: 'Montserrat';
+$font2:"Noto Serif";
+
+//Colors
+$white: #ffffff;
+$yellow: #fed136;
+$darkgrey: #222222;
+$grey: #373638;
+
+//Global
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+ 
+body {
+    margin: 0;
+    background-color: $white;
+    font-size: 16px;
+    font-family: $fontmain;
+    line-height: 1.7; 
+    color: $darkgrey;
+}
+
+
+//Header
+
+header {
+    position: relative;
+    height: 100vh;
+    background-image: url('/images/back.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
