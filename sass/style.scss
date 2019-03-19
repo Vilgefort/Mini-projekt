@@ -51,7 +51,8 @@ header {
     height: 100vh;
     background-image: url('/images/back.jpg');
     background-position: center center;
-    background-size: cover;
+    background-si
+    ze: cover;
     background-attachment: fixed;
         nav {
             padding-top: 60px;
@@ -110,4 +111,17 @@ header {
             }
         }
 
+}
+
+//Services
+
+.services {
+    .row {
+        margin: 400px 0;
+            .col {
+                padding-bottom: 40px;
+                color: red;
+                
+            }
+    }
 }
