@@ -59,6 +59,12 @@ header {
   background-attachment: fixed;
   nav {
     padding-top: 60px;
+    .logo {
+      font-family: "Yesteryear";
+      font-size: 30px;
+      letter-spacing: 2px;
+      color: $yellow;
+    }
     .menu {
       ul {
         list-style-type: none;

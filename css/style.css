@@ -45,6 +45,13 @@ header nav {
   padding-top: 60px;
 }
 
+header nav .logo {
+  font-family: "Yesteryear";
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #fed136;
+}
+
 header nav .menu ul {
   list-style-type: none;
   margin: 0;
