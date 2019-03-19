@@ -1,127 +1,144 @@
 //Variables
 //Fonts
-$fontmain: 'Montserrat';
-$font2:"Noto Serif";
+$fontmain: "Montserrat";
+$font2: "Noto Serif";
+$font3: "Roboto Slab";
 
 //Colors
 $white: #ffffff;
 $yellow: #fed136;
 $darkgrey: #222222;
 $grey: #373638;
+$lightgrey: #777777;
 
 //Global
-*, *::before, *::after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
- 
+
 body {
-    margin: 0 auto;
-    background-color: $white;
-    font-size: 16px;
-    font-family: $fontmain;
-    line-height: 1.7; 
-    color: $darkgrey;
+  margin: 0 auto;
+  background-color: $white;
+  font-size: 16px;
+  font-family: $fontmain;
+  line-height: 1.7;
+  color: $darkgrey;
 }
 
 section {
-    padding: 96px 0;
-    text-align: center;
+  padding: 96px 0;
+  text-align: center;
 }
 
 .mid-title {
-    h3 {
-        margin: 0;
-        font-size: 40px;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-    p {
-        margin: 0;
-        font-family: $font2;
-        font-style: italic;
-        color: $grey;
-    }
+  h3 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  p {
+    margin: 0;
+    font-family: $font2;
+    font-style: italic;
+    color: $lightgrey;
+  }
 }
-
 
 //Header
 
 header {
-    position: relative;
-    height: 100vh;
-    background-image: url('/images/back.jpg');
-    background-position: center center;
-    background-si
-    ze: cover;
-    background-attachment: fixed;
-        nav {
-            padding-top: 60px;
-                .menu {
-                    ul {
-                        list-style-type: none;
-                        margin: 0;
-                        li {
-                            display: inline;
-                            padding: 0 20px;
-                            a {
-                                font-weight: 700;
-                                color: $white;
-                                text-transform: uppercase;
-                                text-decoration: none;
-                            }
-                        }
-                    }
-                    
-                }
-    }
-        .title {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            text-align: center;
-            h2 {
-                font-family: $font2;
-                color: $white;
-                font-size: 40px;
-                font-style: italic;
-                font-weight: 400;
-            }
-            h1 {
-                font-size: 75px;
-                color: $white;
-                text-transform: uppercase;
-                font-weight: 700;
-            }
-            .btn {
-                display: inline-block;
-                width: 240px;
-                height: 65px;
-                padding: 17px;
-                background-color: $yellow;
-                border-radius: 3px;
-                border: none;
-                text-transform: uppercase;
-                text-decoration: none;
-                text-align: center;
-                font-size: 18px;
-                font-weight: 700;
-                color: $white;
-                letter-spacing: 1.5px;
-            }
+  position: relative;
+  height: 100vh;
+  background-image: url("../images/back.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  nav {
+    padding-top: 60px;
+    .menu {
+      ul {
+        list-style-type: none;
+        margin: 0;
+        li {
+          display: inline;
+          padding: 0 20px;
+          a {
+            font-weight: 700;
+            color: $white;
+            text-transform: uppercase;
+            text-decoration: none;
+          }
         }
-
+      }
+    }
+  }
+  .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    h2 {
+      font-family: $font2;
+      color: $white;
+      font-size: 40px;
+      font-style: italic;
+      font-weight: 400;
+    }
+    h1 {
+      font-size: 75px;
+      color: $white;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    .btn {
+      display: inline-block;
+      width: 240px;
+      height: 65px;
+      padding: 17px;
+      background-color: $yellow;
+      border-radius: 3px;
+      border: none;
+      text-transform: uppercase;
+      text-decoration: none;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 700;
+      color: $white;
+      letter-spacing: 1.5px;
+    }
+  }
 }
 
 //Services
 
 .services {
-    .row {
-        margin: 400px 0;
-            .col {
-                padding-bottom: 40px;
-                color: red;
-                
-            }
+  .row {
+    margin: 80px 0;
+    .col {
+      padding: 0 25px;
+      .fas {
+        width: 90px;
+        height: 90px;
+        line-height: 80px;
+        border: 3px solid $yellow;
+        border-radius: 50%;
+        color: $yellow;
+        font-size: 45px;
+      }
+      h4 {
+        margin: 30px 0 0 0;
+        font-weight: 700;
+        font-size: 1.2em;
+      }
+      p {
+        color: $lightgrey;
+        font-family: $font3;
+        line-height: 1.3;
+      }
     }
+  }
 }
