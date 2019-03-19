@@ -160,8 +160,9 @@ header {
     .row {
       margin-bottom: 60px;
       .col {
-        justify-content: space-between;
+        flex: 0 0 calc(33.333332% - 30px);
         background-color: $white;
+        margin: 0 15px;
         padding: 0 0 30px 0;
         img {
           width: 100%;

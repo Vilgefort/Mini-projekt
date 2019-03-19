@@ -153,9 +153,10 @@ header .title .btn {
 }
 
 .portfolio .gallery .row .col {
-  -ms-flex-pack: justify;
-      justify-content: space-between;
+  -ms-flex: 0 0 calc(33.333332% - 30px);
+      flex: 0 0 calc(33.333332% - 30px);
   background-color: #ffffff;
+  margin: 0 15px;
   padding: 0 0 30px 0;
 }
 
