@@ -10,6 +10,7 @@ $yellow: #fed136;
 $darkgrey: #222222;
 $grey: #373638;
 $lightgrey: #777777;
+$backgrey: #f7f7f7;
 
 //Global
 *,
@@ -138,6 +139,39 @@ header {
         color: $lightgrey;
         font-family: $font3;
         line-height: 1.3;
+      }
+    }
+  }
+}
+
+//Portfolio
+
+.portfolio {
+  background-color: $backgrey;
+  .gallery {
+    margin-top: 80px;
+    .row {
+      margin-bottom: 60px;
+      .col {
+        background-color: $white;
+        margin: 0 20px;
+        padding: 0;
+        img {
+          width: 100%;
+          obcject-fit: cover;
+        }
+        h4 {
+          margin: 20px 0 0 0;
+          font-size: 18px;
+          color: $darkgrey;
+        }
+        p {
+          margin: 0;
+          font-family: $font2;
+          font-style: italic;
+          font-size: 14px;
+          color: $lightgrey;
+        }
       }
     }
   }
